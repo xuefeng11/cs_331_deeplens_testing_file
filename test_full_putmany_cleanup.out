@@ -1,0 +1,41 @@
+missing file ./deeplens/media/train/ACa9pGiMNIA.mp4
+missing file ./deeplens/media/train/AEutFytSh2o.mp4
+missing file ./deeplens/media/train/AGhqhz3aJOk.mp4
+missing file ./deeplens/media/train/AAtrsjbDgbw.mp4
+missing file ./deeplens/media/train/AFOI-mS94GE.mp4
+missing file ./deeplens/media/train/AEKT2GQRB-c.mp4
+missing file ./deeplens/media/train/AAPsPbzxorI.mp4
+missing file ./deeplens/media/train/AGPX4C7BEsI.mp4
+missing file ./deeplens/media/train/ABUzePd9-oY.mp4
+missing file ./deeplens/media/train/AAVQ--F7Bk8.mp4
+missing file ./deeplens/media/train/AAqiCVpHkX8.mp4
+missing file ./deeplens/media/train/ADApbuVRucw.mp4
+missing file ./deeplens/media/train/AE6SEDEQJaw.mp4
+multiprocessing.pool.RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/bigdata/xuefeng/anaconda3/envs/deeplen/lib/python3.8/multiprocessing/pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "/bigdata/xuefeng/anaconda3/envs/deeplen/lib/python3.8/multiprocessing/pool.py", line 51, in starmapstar
+    return list(itertools.starmap(args[0], args[1]))
+  File "/bigdata/xuefeng/deeplens-test/deeplens-cv/deeplens/full_manager/full_videoio.py", line 253, in write_video_single
+    v_behind = iter(v_behind)
+  File "/bigdata/xuefeng/deeplens-test/deeplens-cv/deeplens/struct.py", line 69, in __iter__
+    raise CorruptedOrMissingVideo(str(self.src) + " is corrupted or missing.")
+deeplens.error.CorruptedOrMissingVideo: ./deeplens/media/train/ACy2lgwueBU.mp4 is corrupted or missing.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "test_full_putmany_cleanup.py", line 117, in <module>
+    runFullPutMany(["./deeplens/media/train/"+item+".mp4" for item in youtube_ids2], cleanUp=True)
+  File "test_full_putmany_cleanup.py", line 94, in runFullPutMany
+    logs = manager.put_many(src_list, targets, log = True, args={'encoding': XVID, 'size': -1, 'sample': 1.0, 'offset': 0, 'limit': -1, 'batch_size': 30, 'num_processes': os.cpu_count()})
+  File "/bigdata/xuefeng/deeplens-test/deeplens-cv/deeplens/full_manager/full_manager.py", line 135, in put_many
+    results = pool.starmap(write_video_single, put_args)
+  File "/bigdata/xuefeng/anaconda3/envs/deeplen/lib/python3.8/multiprocessing/pool.py", line 372, in starmap
+    return self._map_async(func, iterable, starmapstar, chunksize).get()
+  File "/bigdata/xuefeng/anaconda3/envs/deeplen/lib/python3.8/multiprocessing/pool.py", line 768, in get
+    raise self._value
+deeplens.error.CorruptedOrMissingVideo: ./deeplens/media/train/ACy2lgwueBU.mp4 is corrupted or missing.

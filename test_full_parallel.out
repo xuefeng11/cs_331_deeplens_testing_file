@@ -1,0 +1,877 @@
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AAB6lO-XiKE.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:18.02, start: 0.000000, bitrate: 3014 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], 2877 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/30/2020.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/30/2020.
+[segment @ 0x5e76980] Opening './tmp/rutundaoop0.mp4' for writing
+Output #0, segment, to './tmp/rutundaoop%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 2877 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/30/2020.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/30/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x5e76980] Opening './tmp/rutundaoop1.mp4' for writing
+[segment @ 0x5e76980] Opening './tmp/rutundaoop2.mp4' for writing
+frame=  540 fps=0.0 q=-1.0 Lsize=N/A time=00:00:17.99 bitrate=N/A speed= 234x    
+video:6330kB audio:282kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AACM71csS-Q.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:48.04, start: 0.000000, bitrate: 3725 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], 3649 kb/s, 23.25 fps, 23.25 tbr, 23253 tbn, 46.51 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/03/2020.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 69 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/03/2020.
+[segment @ 0x6d0d840] Opening './tmp/stgymdiwto0.mp4' for writing
+Output #0, segment, to './tmp/stgymdiwto%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 3649 kb/s, 23.25 fps, 23.25 tbr, 23253 tbn, 23.25 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/03/2020.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 69 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/03/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x6d0d840] Opening './tmp/stgymdiwto1.mp4' for writing
+[segment @ 0x6d0d840] Opening './tmp/stgymdiwto2.mp4' for writing
+[segment @ 0x6d0d840] Opening './tmp/stgymdiwto3.mp4' for writing
+[segment @ 0x6d0d840] Opening './tmp/stgymdiwto4.mp4' for writing
+[segment @ 0x6d0d840] Opening './tmp/stgymdiwto5.mp4' for writing
+[segment @ 0x6d0d840] Opening './tmp/stgymdiwto6.mp4' for writing
+[segment @ 0x6d0d840] Opening './tmp/stgymdiwto7.mp4' for writing
+frame= 1117 fps=0.0 q=-1.0 Lsize=N/A time=00:00:47.99 bitrate=N/A speed= 193x    
+video:21403kB audio:407kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AAB6lO-XiKE.mp4"};put;{'elapsed': 4.7684331350028515};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AAEjNUmj09M.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:18.02, start: 0.000000, bitrate: 449 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x270 [SAR 1:1 DAR 16:9], 312 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+[segment @ 0x66bf700] Opening './tmp/ajmeoicrix0.mp4' for writing
+Output #0, segment, to './tmp/ajmeoicrix%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x270 [SAR 1:1 DAR 16:9], q=2-31, 312 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x66bf700] Opening './tmp/ajmeoicrix1.mp4' for writing
+[segment @ 0x66bf700] Opening './tmp/ajmeoicrix2.mp4' for writing
+[segment @ 0x66bf700] Opening './tmp/ajmeoicrix3.mp4' for writing
+[segment @ 0x66bf700] Opening './tmp/ajmeoicrix4.mp4' for writing
+frame=  540 fps=0.0 q=-1.0 Lsize=N/A time=00:00:17.99 bitrate=N/A speed= 798x    
+video:688kB audio:282kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AACM71csS-Q.mp4"};put;{'elapsed': 5.548921560868621};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AAFXYj6CM9k.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:18.02, start: 0.000000, bitrate: 882 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x356 [SAR 481:480 DAR 481:356], 749 kb/s, 20 fps, 20 tbr, 15996 tbn, 39.99 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+[segment @ 0x5f1edc0] Opening './tmp/haqqnpjkzs0.mp4' for writing
+Output #0, segment, to './tmp/haqqnpjkzs%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x356 [SAR 481:480 DAR 481:356], q=2-31, 749 kb/s, 20 fps, 20 tbr, 15996 tbn, 20 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x5f1edc0] Opening './tmp/haqqnpjkzs1.mp4' for writing
+frame=  360 fps=0.0 q=-1.0 Lsize=N/A time=00:00:17.99 bitrate=N/A speed= 160x    
+video:1647kB audio:283kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AAEjNUmj09M.mp4"};put;{'elapsed': 1.4761936403810978};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AAFoV_da9KY.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:21.03, start: 0.000000, bitrate: 795 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], 716 kb/s, 29.58 fps, 29.58 tbr, 11360 tbn, 59.17 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 69 kb/s (default)
+    Metadata:
+      handler_name    : IsoMedia File Produced by Google, 5-11-2011
+[segment @ 0x64a6480] Opening './tmp/lbzlcbbsvt0.mp4' for writing
+Output #0, segment, to './tmp/lbzlcbbsvt%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 716 kb/s, 29.58 fps, 29.58 tbr, 11360 tbn, 29.58 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 69 kb/s (default)
+    Metadata:
+      handler_name    : IsoMedia File Produced by Google, 5-11-2011
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x64a6480] Opening './tmp/lbzlcbbsvt1.mp4' for writing
+[segment @ 0x64a6480] Opening './tmp/lbzlcbbsvt2.mp4' for writing
+frame=  622 fps=0.0 q=-1.0 Lsize=N/A time=00:00:20.99 bitrate=N/A speed= 649x    
+video:1839kB audio:178kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AAFXYj6CM9k.mp4"};put;{'elapsed': 1.6622099801898003};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AAGWu5D-ORU.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:18.03, start: 0.000000, bitrate: 747 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x320 [SAR 1:1 DAR 3:2], 610 kb/s, 29.96 fps, 29.96 tbr, 29957 tbn, 59.91 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+[segment @ 0x6bb8bc0] Opening './tmp/oqqswhgava0.mp4' for writing
+Output #0, segment, to './tmp/oqqswhgava%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x320 [SAR 1:1 DAR 3:2], q=2-31, 610 kb/s, 29.96 fps, 29.96 tbr, 29957 tbn, 29.96 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x6bb8bc0] Opening './tmp/oqqswhgava1.mp4' for writing
+[segment @ 0x6bb8bc0] Opening './tmp/oqqswhgava2.mp4' for writing
+frame=  540 fps=0.0 q=-1.0 Lsize=N/A time=00:00:17.99 bitrate=N/A speed= 670x    
+video:1344kB audio:282kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AAFoV_da9KY.mp4"};put;{'elapsed': 1.8819721154868603};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AAI0cDTWFvE.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:46.02, start: 0.000000, bitrate: 804 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360, 724 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 69 kb/s (default)
+    Metadata:
+      handler_name    : IsoMedia File Produced by Google, 5-11-2011
+[segment @ 0x5ccfe00] Opening './tmp/nvrnwolcjt0.mp4' for writing
+Output #0, segment, to './tmp/nvrnwolcjt%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360, q=2-31, 724 kb/s, 30 fps, 30 tbr, 15360 tbn, 30 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 69 kb/s (default)
+    Metadata:
+      handler_name    : IsoMedia File Produced by Google, 5-11-2011
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x5ccfe00] Opening './tmp/nvrnwolcjt1.mp4' for writing
+[segment @ 0x5ccfe00] Opening './tmp/nvrnwolcjt2.mp4' for writing
+[segment @ 0x5ccfe00] Opening './tmp/nvrnwolcjt3.mp4' for writing
+[segment @ 0x5ccfe00] Opening './tmp/nvrnwolcjt4.mp4' for writing
+[segment @ 0x5ccfe00] Opening './tmp/nvrnwolcjt5.mp4' for writing
+frame= 1380 fps=0.0 q=-1.0 Lsize=N/A time=00:00:45.99 bitrate=N/A speed= 458x    
+video:4068kB audio:392kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AAGWu5D-ORU.mp4"};put;{'elapsed': 2.262217704206705};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AAJkJFd_7i8.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:18.05, start: 0.000000, bitrate: 310 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 320x240 [SAR 1:1 DAR 4:3], 232 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 69 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+[segment @ 0x748ac80] Opening './tmp/jlklgipeer0.mp4' for writing
+Output #0, segment, to './tmp/jlklgipeer%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 320x240 [SAR 1:1 DAR 4:3], q=2-31, 232 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 69 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x748ac80] Opening './tmp/jlklgipeer1.mp4' for writing
+[segment @ 0x748ac80] Opening './tmp/jlklgipeer2.mp4' for writing
+frame=  541 fps=0.0 q=-1.0 Lsize=N/A time=00:00:17.99 bitrate=N/A speed=1.03e+03x    
+video:512kB audio:153kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AAI0cDTWFvE.mp4"};put;{'elapsed': 2.3237418718636036};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AAKsIdU0QJY.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:18.02, start: 0.000000, bitrate: 500 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x270 [SAR 1:1 DAR 16:9], 363 kb/s, 29.92 fps, 29.92 tbr, 29917 tbn, 59.83 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+[segment @ 0x6cefb80] Opening './tmp/bmanxqyvlb0.mp4' for writing
+Output #0, segment, to './tmp/bmanxqyvlb%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x270 [SAR 1:1 DAR 16:9], q=2-31, 363 kb/s, 29.92 fps, 29.92 tbr, 29917 tbn, 29.92 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x6cefb80] Opening './tmp/bmanxqyvlb1.mp4' for writing
+[segment @ 0x6cefb80] Opening './tmp/bmanxqyvlb2.mp4' for writing
+[segment @ 0x6cefb80] Opening './tmp/bmanxqyvlb3.mp4' for writing
+[segment @ 0x6cefb80] Opening './tmp/bmanxqyvlb4.mp4' for writing
+frame=  539 fps=0.0 q=-1.0 Lsize=N/A time=00:00:17.99 bitrate=N/A speed= 716x    
+video:799kB audio:283kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AAJkJFd_7i8.mp4"};put;{'elapsed': 1.6242768708616495};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AALP2LjZhOE.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:18.02, start: 0.000000, bitrate: 1047 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360, 914 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 123 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+[segment @ 0x6d420c0] Opening './tmp/tvxwulllgw0.mp4' for writing
+Output #0, segment, to './tmp/tvxwulllgw%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360, q=2-31, 914 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 123 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x6d420c0] Opening './tmp/tvxwulllgw1.mp4' for writing
+[segment @ 0x6d420c0] Opening './tmp/tvxwulllgw2.mp4' for writing
+frame=  540 fps=0.0 q=-1.0 Lsize=N/A time=00:00:17.99 bitrate=N/A speed= 138x    
+video:2011kB audio:271kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AAKsIdU0QJY.mp4"};put;{'elapsed': 1.9217146299779415};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AAOjiqipMmk.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:48.02, start: 0.000000, bitrate: 457 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], 379 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/29/2020.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 69 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/29/2020.
+[segment @ 0x6de90c0] Opening './tmp/wagcmumjrd0.mp4' for writing
+Output #0, segment, to './tmp/wagcmumjrd%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 379 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/29/2020.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 69 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 01/29/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x6de90c0] Opening './tmp/wagcmumjrd1.mp4' for writing
+[segment @ 0x6de90c0] Opening './tmp/wagcmumjrd2.mp4' for writing
+[segment @ 0x6de90c0] Opening './tmp/wagcmumjrd3.mp4' for writing
+[segment @ 0x6de90c0] Opening './tmp/wagcmumjrd4.mp4' for writing
+[segment @ 0x6de90c0] Opening './tmp/wagcmumjrd5.mp4' for writing
+[segment @ 0x6de90c0] Opening './tmp/wagcmumjrd6.mp4' for writing
+frame= 1439 fps=0.0 q=-1.0 Lsize=N/A time=00:00:47.99 bitrate=N/A speed= 783x    
+video:2223kB audio:407kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AALP2LjZhOE.mp4"};put;{'elapsed': 2.1583498306572437};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AAO25vulXR0.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:18.02, start: 0.000000, bitrate: 1301 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], 1162 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+[segment @ 0x6115880] Opening './tmp/dvmkqerdws0.mp4' for writing
+Output #0, segment, to './tmp/dvmkqerdws%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 1162 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x6115880] Opening './tmp/dvmkqerdws1.mp4' for writing
+[segment @ 0x6115880] Opening './tmp/dvmkqerdws2.mp4' for writing
+frame=  540 fps=0.0 q=-1.0 Lsize=N/A time=00:00:17.99 bitrate=N/A speed= 416x    
+video:2556kB audio:282kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AAOjiqipMmk.mp4"};put;{'elapsed': 3.327403860166669};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+./deeplens/media/train/AAPsPbzxorI.mp4: No such file or directory
+full;{"file": "./deeplens/media/train/AAO25vulXR0.mp4"};put;{'elapsed': 1.9658832997083664};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AAQXGfJROpE.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:16.02, start: 0.000000, bitrate: 845 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], 709 kb/s, 30 fps, 30 tbr, 15360 tbn, 60 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+[segment @ 0x6a0aa40] Opening './tmp/ftiemtfclz0.mp4' for writing
+Output #0, segment, to './tmp/ftiemtfclz%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 709 kb/s, 30 fps, 30 tbr, 15360 tbn, 30 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 127 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x6a0aa40] Opening './tmp/ftiemtfclz1.mp4' for writing
+[segment @ 0x6a0aa40] Opening './tmp/ftiemtfclz2.mp4' for writing
+frame=  480 fps=0.0 q=-1.0 Lsize=N/A time=00:00:15.99 bitrate=N/A speed= 523x    
+video:1385kB audio:250kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AAPsPbzxorI.mp4"};put;{'elapsed': 0.6692003812640905};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AARNQeeGCeM.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:02:03.06, start: 0.000000, bitrate: 903 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 640x360 [SAR 1:1 DAR 16:9], 766 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : IsoMedia File Produced by Google, 5-11-2011
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg0.mp4' for writing
+Output #0, segment, to './tmp/jdxwjpdbbg%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 640x360 [SAR 1:1 DAR 16:9], q=2-31, 766 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : IsoMedia File Produced by Google, 5-11-2011
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg1.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg2.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg3.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg4.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg5.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg6.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg7.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg8.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg9.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg10.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg11.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg12.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg13.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg14.mp4' for writing
+[segment @ 0x6c9ec00] Opening './tmp/jdxwjpdbbg15.mp4' for writing
+frame= 3688 fps=0.0 q=-1.0 Lsize=N/A time=00:02:02.99 bitrate=N/A speed= 463x    
+video:11515kB audio:1931kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AAQXGfJROpE.mp4"};put;{'elapsed': 1.8156552985310555};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+./deeplens/media/train/AARldOxX9Qc.mp4: No such file or directory
+full;{"file": "./deeplens/media/train/AARNQeeGCeM.mp4"};put;{'elapsed': 7.562096888199449};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AATSbTthMRo.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:01:47.02, start: 0.000000, bitrate: 963 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], 828 kb/s, 25 fps, 25 tbr, 19996 tbn, 49.99 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+[segment @ 0x67cbdc0] Opening './tmp/iqprxlqrwp0.mp4' for writing
+Output #0, segment, to './tmp/iqprxlqrwp%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 480x360 [SAR 1:1 DAR 4:3], q=2-31, 828 kb/s, 25 fps, 25 tbr, 19996 tbn, 25 tbc (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x67cbdc0] Opening './tmp/iqprxlqrwp1.mp4' for writing
+[segment @ 0x67cbdc0] Opening './tmp/iqprxlqrwp2.mp4' for writing
+[segment @ 0x67cbdc0] Opening './tmp/iqprxlqrwp3.mp4' for writing
+[segment @ 0x67cbdc0] Opening './tmp/iqprxlqrwp4.mp4' for writing
+[segment @ 0x67cbdc0] Opening './tmp/iqprxlqrwp5.mp4' for writing
+[segment @ 0x67cbdc0] Opening './tmp/iqprxlqrwp6.mp4' for writing
+[segment @ 0x67cbdc0] Opening './tmp/iqprxlqrwp7.mp4' for writing
+[segment @ 0x67cbdc0] Opening './tmp/iqprxlqrwp8.mp4' for writing
+[segment @ 0x67cbdc0] Opening './tmp/iqprxlqrwp9.mp4' for writing
+[segment @ 0x67cbdc0] Opening './tmp/iqprxlqrwp10.mp4' for writing
+[segment @ 0x67cbdc0] Opening './tmp/iqprxlqrwp11.mp4' for writing
+frame= 2675 fps=0.0 q=-1.0 Lsize=N/A time=00:01:46.99 bitrate=N/A speed= 406x    
+video:10827kB audio:1678kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AARldOxX9Qc.mp4"};put;{'elapsed': 0.45481725595891476};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+./deeplens/media/train/AAVQ--F7Bk8.mp4: No such file or directory
+full;{"file": "./deeplens/media/train/AATSbTthMRo.mp4"};put;{'elapsed': 4.179947571828961};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AAWK6esRYaE.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:03:18.10, start: 0.000000, bitrate: 428 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 320x240 [SAR 1:1 DAR 4:3], 288 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 59.94 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg0.mp4' for writing
+Output #0, segment, to './tmp/dmpfmqbprg%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 320x240 [SAR 1:1 DAR 4:3], q=2-31, 288 kb/s, 29.97 fps, 29.97 tbr, 30k tbn, 29.97 tbc (default)
+    Metadata:
+      handler_name    : VideoHandler
+    Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp, 128 kb/s (default)
+    Metadata:
+      handler_name    : (C) 2007 Google Inc. v08.13.2007.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg1.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg2.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg3.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg4.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg5.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg6.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg7.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg8.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg9.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg10.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg11.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg12.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg13.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg14.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg15.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg16.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg17.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg18.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg19.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg20.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg21.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg22.mp4' for writing
+[segment @ 0x72ac440] Opening './tmp/dmpfmqbprg23.mp4' for writing
+frame= 5937 fps=0.0 q=-1.0 Lsize=N/A time=00:03:17.99 bitrate=N/A speed= 914x    
+video:6986kB audio:3114kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+full;{"file": "./deeplens/media/train/AAVQ--F7Bk8.mp4"};put;{'elapsed': 0.4553784839808941};s
+ffmpeg version 4.2.2-static https://johnvansickle.com/ffmpeg/  Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 8 (Debian 8.3.0-6)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-debug --disable-ffplay --disable-indev=sndio --disable-outdev=sndio --cc=gcc --enable-fontconfig --enable-frei0r --enable-gnutls --enable-gmp --enable-libgme --enable-gray --enable-libaom --enable-libfribidi --enable-libass --enable-libvmaf --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-librubberband --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libvorbis --enable-libopus --enable-libtheora --enable-libvidstab --enable-libvo-amrwbenc --enable-libvpx --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libdav1d --enable-libxvid --enable-libzvbi --enable-libzimg
+  libavutil      56. 31.100 / 56. 31.100
+  libavcodec     58. 54.100 / 58. 54.100
+  libavformat    58. 29.100 / 58. 29.100
+  libavdevice    58.  8.100 / 58.  8.100
+  libavfilter     7. 57.100 /  7. 57.100
+  libswscale      5.  5.100 /  5.  5.100
+  libswresample   3.  5.100 /  3.  5.100
+  libpostproc    55.  5.100 / 55.  5.100
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from './deeplens/media/train/AAaLjEbkntw.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+  Duration: 00:00:16.07, start: 0.000000, bitrate: 147 kb/s
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 240x176 [SAR 1:1 DAR 15:11], 73 kb/s, 8.15 fps, 8.15 tbr, 12k tbn, 16.30 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/19/2020.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 69 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/19/2020.
+[segment @ 0x58cab40] Opening './tmp/tisaelnyep0.mp4' for writing
+Output #0, segment, to './tmp/tisaelnyep%d.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf58.29.100
+    Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p, 240x176 [SAR 1:1 DAR 15:11], q=2-31, 73 kb/s, 8.15 fps, 8.15 tbr, 12k tbn, 8.15 tbc (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/19/2020.
+    Stream #0:1(eng): Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, mono, fltp, 69 kb/s (default)
+    Metadata:
+      handler_name    : ISO Media file produced by Google Inc. Created on: 02/19/2020.
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+[segment @ 0x58cab40] Opening './tmp/tisaelnyep1.mp4' for writing
+frame=  131 fps=0.0 q=-1.0 Lsize=N/A time=00:00:15.99 bitrate=N/A speed=1.77e+03x    
+video:145kB audio:137kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
+missing file for full AAWK6esRYaE
